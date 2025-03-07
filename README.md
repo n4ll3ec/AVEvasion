@@ -1,6 +1,6 @@
 # AVEvasion
 
-Just a demo.
+内存免杀Demo. Just a demo.
 
 
 
@@ -25,9 +25,9 @@ Demo仅演示Bypass常用内存扫描工具，进程注入等风险Bypass这里�
   
 
 ## 原理
-主要使用的思路和技术包括：CS自带内存规避相关机制，静态特征修改、变异的sleepmask、beacon Patch以及现有的开源UDRL。
+主要使用的思路和技术包括：CS自带内存规避相关机制，静态特征修改、变异的sleepmask、开源UDRL以及beacon Patch。
 
-现有一些比较好用的UDRL，Beacon休眠时可以过BeaconEye，但执行post-ex任务还是会被检测。
+现有一些开源UDRL，Beacon休眠时可以过BeaconEye，但执行post-ex任务还是会被检测。
 e.g
 ![UDRL_BeaconEye.gif](resources/F160C62AFF74389D8070D0637B8B3028.gif)
 
